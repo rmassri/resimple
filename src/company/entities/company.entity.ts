@@ -18,6 +18,9 @@ export class Company {
   name_worker: string;
 
   @Column()
+  age: number;
+
+  @Column()
   edad: number;
 
   @Column()
